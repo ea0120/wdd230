@@ -27,6 +27,7 @@
   }
   .footer {
     background-color: #1349df;
+    text-align: center;
   }
   .font18 {
     color: white;
@@ -37,4 +38,8 @@
     color: yellow;
     font-size: 16px;
     padding-bottom: 5px;
+  }
+  .note {
+    font-size: 12px;
+    font-style: italic;
   }
