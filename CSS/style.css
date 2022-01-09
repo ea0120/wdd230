@@ -13,8 +13,7 @@
   }
   .grid-item_row-space {
     grid-column: 1 / span 2;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: #1349df;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -22,9 +21,20 @@
   .paragraph_padding {
     margin-left: 15px;
   }
-
   .myName {
     color: #ffffff;
     text-align: left;
   }
-  
+  .footer {
+    background-color: #1349df;
+  }
+  .font18 {
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .font16 {
+    color: yellow;
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
