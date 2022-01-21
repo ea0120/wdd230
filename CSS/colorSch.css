@@ -1,0 +1,22 @@
+.red_text{
+    color: rgb(238, 18, 18);
+}
+.green_text{
+    color: rgb(23, 165, 23);
+}
+.blue_text{
+    color: blue;
+}
+.yellow_text{
+    color: rgb(222, 236, 28);
+}
+
+.first_headline{
+    font-style: italic;
+    color:rgb(220, 47, 226);
+    font-size: large;
+}
+.second_headline{
+    font-style: oblique;
+    font-size: large;
+}
