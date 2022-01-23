@@ -77,8 +77,7 @@ main section:nth-child(2) {
 	}
 }
 .pictureAdjust{
-	size: 25px;
-	size-adjust: 10px;
+	size: 20px;
 }
 .paragraphColor{
 	background-color: rgb(182, 221, 179);
@@ -88,4 +87,16 @@ main section:nth-child(2) {
 }
 .paragraphColor3{
 	background-color: rgb(163, 216, 240);
+}
+.paragraphFont{
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+.linkFont{
+	font-size: xx-large;
+	font-style: oblique;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
 }
