@@ -1,5 +1,5 @@
 .font_1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
 
@@ -11,4 +11,8 @@
 .font_3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+}
+
+body{
+    text-align: center;
 }
