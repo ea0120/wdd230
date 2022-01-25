@@ -67,7 +67,7 @@ header {
 		font-size: 0.9rem;
 	}
 }
-.grid-3-collum{
+.grid-collum{
     margin: 5rem auto;
     display: grid;
     width: min(90%, 75rem);
