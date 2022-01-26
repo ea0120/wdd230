@@ -73,4 +73,52 @@ header {
     width: min(90%, 75rem);
     grid-template-columns: 33% 33% 33%;
     text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: none;
+}
+.a_in_grid{
+	text-decoration: none;
+}
+/*.grid_float_test{
+	margin: 5rem auto;
+	float: inline-end;
+	text-align: center;
+	color: red;
+}
+*/
+.cap_planet{
+	align-items: center;
+}
+.text-align{
+	text-align: center;
+}
+
+/*ul*/
+*{
+	text-decoration: none;
+}
+ul{
+
+}
+
+nav{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(66, 157, 231);
+	text-align: center;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+	line-height: 50%;
+}
+ul li a{
+	text-decoration: none;
+	font-size: x-large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	color: #fff;
+	padding: 0 45px;
 }
