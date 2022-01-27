@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	background-color: aquamarine;
 }
 
 header {
@@ -96,6 +97,7 @@ header {
 /*ul*/
 *{
 	text-decoration: none;
+	background-color: aquamarine;
 }
 ul{
 
