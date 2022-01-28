@@ -1,42 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="WDD 230: Assignmet Portal">
-        <link rel="normalize.css" href="CSS/normalize.css">
-        <link rel="stylesheet" href="../CSS/lesson3index.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/chamber.css">    
-        <script type="text/javascript" src="JS/script.js"></script>
-        <title>City Chamber</title>
-    </head>
-    <body>
-       <nav>
-	       <div><a class="colorLink1" href="color-scheme.html">Color Scheme</a></div>
-	       <div><a class="colorLink2" href="typography.html">Typography</a></div>
-	       <div><a class="colorLink3" href="target-audience.html">Target Audeince</a></div>
-	       <div><a class="colorLink1" href="discover.html">Discover</a></div>
-	       <div><a class="colorLink2" href="directory.html">Directory</a></div>
-	       <div><a class="colorLink3" href="join.html">Join</a></div>
-	       <div><a class="colorLink3" href="contact.html">Contact</a></div>
-       </nav>
-	    
-       <h1 class="headlineAlign1">City Chamber</h1>
-       <img src="../Images/chamber.jpg" alt="building" height="100" width="100">
-       <h3>Site Purpose</h3>
-       <p class="textAlign">This site is in the the process of being built for the purpose of website development learning and education.</p>
-       <br>
-       <br>
-       <h2 class="headlineAlign2 ">See Other Sites With This Lesson</h2>
-       
-    <!--Chamber Note for Week 4:This assignment only requires that you build the header, navigation, and footer information and layout.
-        differnt sixes for devices: CSS files with media queries in the "medium.css" and "large.css" files 
-        three semantic parent elements: header,  main, and footer
-        The sections include hero image and call to action, news, event(s), weather, join, and two to three company spotlights.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LizWeathers'Weather</title>
 
-    <footer>
-		This is for Lesson 3 in WDD230.
-	</footer>
-    </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lesson3/css/desktop.css">
+    <link rel="stylesheet" href="../lesson3/css/mobile.css">
+    <link rel="stylesheet" href="../lesson3/css/tablet.css">
+    <link rel="stylesheet" href="../lesson3/css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title">Kamino Weather</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html" > Weather </a></li>
+                <li><a href="target-audience.html" > Audience </a></li>
+                <li><a href="color-scheme.html" > Color </a></li>
+                <li><a href="typography.html" > Typography </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="bg">
+        <div>   
+            <h3> Weather Site name </h3> 
+            <p class="bg-text upper"> Site name </p>
+            <p class="p-bg">
+                The website's name is Kamino Weather. For all of the ocean planet's weather.
+                <br>
+                <br>
+            </p>
+        </div>
+
+        <div>
+            <h3> Domain </h3> 
+            <p class="bg-text upper"> Site Domain name </p>
+            <p class="p-bg">
+                kaminoweather.com
+            </p>
+
+        </div>
+
+        <div>
+            <h3> What is this? </h3> 
+            <p class="bg-text upper"> Purpose </p>
+            <p class="p-bg">
+                The purpose of this website is to show the weather updates for people who want to know what's going on outside.
+                <br>
+                <br>
+                This website will help anyone who wants to know if they will get more rain, tsunami, sun, or all at once. 
+                The website is user-friendly and responsive.
+            </p>
+        </div>
+
+        <div>
+            <h3> Logo </h3> 
+            <p class="bg-text upper"> Main logo </p>
+            <p class="p-bg">
+                <img src="./images/rain-cloud.png" alt="main-logo">
+            </p>
+        </div>
+      
+
+    </main>
+
+
+        <footer>
+            <div>
+                &copy; <span id="year"></span> | Emma Amos | Indiana 
+            </div>
+        </footer>
+
+</body>
 </html>
