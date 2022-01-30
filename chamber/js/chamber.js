@@ -1,23 +1,8 @@
-window.onload = function getTime() {
-    let currentDate = new Date();
-    document.querySelector(".year").innerHTML = currentDate.getFullYear();
-    document.getElementById("lastmod").innerHTML = document.lastModified;
-}
-
-
 // select the elements to manipulate (output to)
 const datefield = document.querySelector("date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
 // derive the current date using a date object
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);
-// long, medium, short options ... try them
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+datefield.innerHTML = fulldate;
