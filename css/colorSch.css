@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(253, 236, 247);
+}
+.red_text{
+    color: rgb(238, 18, 18);
+}
+.green_text{
+    color: rgb(23, 165, 23);
+}
+.blue_text{
+    color: blue;
+}
+.yellow_text{
+    color: rgb(168, 185, 8);
+}
+
+.second_headline{
+    font-style: oblique;
+    font-size: large;
+}
+.moreColors{
+    color: rgb(182, 221, 179);
+}
+.moreColors2{
+    color: rgb(235, 167, 104);
+}
+.moreColors3{
+    color: rgb(163, 216, 240);
+}
+.mainHeadlines{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: oblique;
+    color: rgba(236, 19, 236, 0.966);
+}
+.lowerHeadlines{
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   font-size: x-large;
+}
+.textAlign{
+    text-align: center;
+}
+.colorText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

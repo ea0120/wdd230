@@ -1,0 +1,23 @@
+.headlineAlign1{
+    text-align: center;
+    font-size: xx-large;
+
+}
+.headlineAlign2{
+    text-align: center;
+    font-size: x-large;
+
+}
+.textAlign{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.colorLink1{
+    color: rgb(115, 218, 20);
+}
+.colorLink2{
+    color: rgb(7, 3, 44);
+}
+.colorLink3{
+    color: rgb(218, 20, 20);
+}

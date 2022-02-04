@@ -7,7 +7,7 @@ html {
 body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
-    background-color: #cceee3;
+    background-color: #d5d3ec;
 }
 
 main {
@@ -23,7 +23,7 @@ p {
 
 
 header, footer {
-    background-color: #11B7B2;
+    background-color: #0a60a1;
     padding: 25px;
     font-size: 2rem;
     text-align: center;
@@ -37,7 +37,7 @@ footer {
 .text-head {
     text-align: center;
     font-size: 25px;
-    background-color: rgb(50, 163, 238);
+    background-color: orange;
     padding: 10px;
 
 }

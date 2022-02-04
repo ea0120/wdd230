@@ -128,7 +128,7 @@
     padding: 10px;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: repeat(6 , 250px);
+    grid-template-rows: repeat(2 , 250px);
     grid-gap: 10px 10px;
 }
 .item{
