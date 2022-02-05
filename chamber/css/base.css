@@ -2,64 +2,59 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
-  body{
+}
+body{
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background-size: cover;
 	background-attachment: fixed;
-  }
-  .navbar{
+}
+.navbar{
 	height: 70px;
 	width: 100%;
 	padding: 14px 30px;
 	background-color: #1b4cd3;
 	position: relative;
-  }
-  .navbar .nav-header{
+}
+.navbar .nav-header{
 	display: inline;
-  }
-  .navbar .nav-header .nav-logo{
+}
+.navbar .nav-header .nav-logo{
 	display: inline-block;
 	margin-top: -7px;
-  }
-  .navbar .nav-links{
+}
+.navbar .nav-links{
 	display: inline;
 	float: right;
 	font-size: 18px;
-  }
-   
-  .navbar .nav-links .loginBtn{
+}
+.navbar .nav-links .loginBtn{
 	display: inline-block;
 	padding: 5px 15px;
 	margin-left: 20px;
 	font-size: 17px;
 	color: rgb(9, 14, 90);
-  }
-  .navbar .nav-links a{
+}
+.navbar .nav-links a{
 	padding: 10px 12px;
 	text-decoration: none;
 	font-weight: 550;
 	color: white;
-  }
-  /* Hover effects */
-  .navbar .nav-links a:hover{
+}
+/* Hover effects */
+	.navbar .nav-links a:hover{
 	background-color: rgba(0, 0, 0, 0.3);
-  }
-   
-  /* responsive navbar toggle button */
-  .navbar #nav-check, .navbar .nav-btn{
+}
+/* responsive navbar toggle button */
+.navbar #nav-check, .navbar .nav-btn{
 	display: none;
-  }
-   
+}  
 .social {
 	margin-right: 1px;
 }
-
 .social img {
 	width: 25px;
 	height: auto;
 }
-
 .bottum_page_strip{
 	background-color: #1b4cd3;
 	font-size: large;
@@ -67,15 +62,34 @@
 	text-align: center;
 	color: #fff;
 }
-
 .itemEvent {
     grid-area: event;
 }
 .itemWeather {
 	grid-area: weather;
 }
+.itemWeather .status {
+	text-align: right;
+	margin: 20px;
+}
+.itemWeather hr {
+	margin: 20px;
+}
 .itemJoin {
     grid-area: join;
+}
+.itemJoin button {
+	background-color: #04AA6D; /* Green */
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
 }
 .itemWelcome {
     grid-area: welcome;
@@ -86,11 +100,33 @@
 .itemSpot1 {
     grid-area: spot1;
 }
+.itemSpot1 p {
+	margin: 20px;
+}
+.itemSpot1 hr {
+	margin: 20px;
+}
 .itemSpot2 {
     grid-area: spot2;
 }
+.itemSpot2 p {
+	margin: 20px;
+}
+.itemSpot2 hr {
+	margin: 20px;
+}
 .itemSport3 {
     grid-area: spot3;
+}
+.itemSpot3 p {
+	margin: 20px;
+}
+.itemSpot3 hr {
+	margin: 20px;
+}
+.sideIcons {
+	width: 100px;
+	height: auto;
 }
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -109,16 +145,13 @@
 .flex-container {
 	display: flex;
 }
-  
 .flex-container > div {
 	padding: 20px;
 }
-
 .flex-container div img {
 	width: 100px;
 	height: 100px;
 }
-
 .flex-container div p {
 	font-size: 50px;
 }
