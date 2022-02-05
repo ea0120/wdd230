@@ -62,11 +62,14 @@
     }
     .grid-container {
         display: grid;
-        grid-template-areas: 'y'
-                             'center'
-                             'w'
-                             'x'
-                             'z';
+        grid-template-areas: 'event'
+                             'weather'
+                             'join'
+                             'welcome'
+							 'news'
+							 'spot1'
+							 'spot2'
+							 'spot3';
         grid-gap: 10px;
         background-color: #2196F3;
         padding: 10px;
