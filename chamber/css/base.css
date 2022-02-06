@@ -63,7 +63,7 @@ body{
 	color: #fff;
 }
 .itemEvent {
-    grid-area: event;
+	grid-area: event;
 }
 .itemWeather {
 	grid-area: weather;
@@ -92,7 +92,41 @@ body{
 	border-radius: 12px;
 }
 .itemWelcome {
-    grid-area: welcome;
+	grid-area: welcome;
+
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.itemWelcome button {
+	background-color: #04AA6D; /* Green */
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 8px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+}
+.top-left {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	color: blue;
+}
+.bottom-right {
+	position: absolute;
+	bottom: 50px;
+	right: 30px;
+  }
+.itemWelcome img {
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
 }
 .itemNews {
     grid-area: news;
@@ -129,7 +163,7 @@ body{
 	height: auto;
 }
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(14, 176, 240);
     text-align: center;
     padding: 20px 0;
 }
@@ -139,7 +173,7 @@ body{
 						 'weather welcome welcome spot2'
 						 'join news news spot3';
 	grid-gap: 10px;
-	background-color: #2196F3;
+	/*background-color: #2196F3;*/
 	padding: 10px;
 }
 .flex-container {
