@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width:900px){
+@media (min-width: 576px) and (max-width: 767.98px) {
 	.navbar {
 		z-index: 300;
 	}
@@ -58,12 +58,14 @@
 
     .grid-container {
         display: grid;
-        grid-template-areas: 'welcome welcome'
-                             'news news'
-                             'spot1 spot2'
-                             'join join'
-                             'event weather'
-							 'spot3 spot3';
+        grid-template-areas: 'welcome'
+                             'event'
+                             'weather'
+                             'news'
+							 'spot1'
+							 'spot2'
+							 'spot3'
+							 'join';
         grid-gap: 10px;
         padding: 10px;
     }
