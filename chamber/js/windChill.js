@@ -8,4 +8,4 @@ const windChillFahrenheit =
   0.4275 * temperature * windSpeed ** 0.16;
 
 var windChillText = document.getElementById("windchill");
-winndChillText.innerHtml = "Wind Chill:&emsp;&emsp;&emsp;&emsp; " + windChillFahrenheit;
+windChillText.innerHtml = "Wind Chill:&emsp;&emsp;&emsp;&emsp; " + windChillFahrenheit;
