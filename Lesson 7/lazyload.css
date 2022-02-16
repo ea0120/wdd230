@@ -1,0 +1,29 @@
+.img1{
+
+}
+.img2{
+
+}
+.img3{
+
+}
+.img4{
+
+}
+.img5{
+
+}
+.img6{
+
+}
+.allImgs{
+    size: 300px 400px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "img1 img2 img3"
+                         "img4 img5 img6";
+}
