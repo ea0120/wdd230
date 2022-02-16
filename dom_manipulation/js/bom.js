@@ -3,7 +3,7 @@ let btnAdd = document.querySelector('#btnAdd');
 let scrpList = document.querySelector('#scrpList');
 
 btnAdd.addEventListener('click', function() {
-    var txtValue = txtIn.value;
+    var txtValue = favchap.value;
     if(txtValue) {
         var newItem = document.createElement("li");
         newItem.innerHTML = txtValue;
