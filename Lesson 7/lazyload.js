@@ -1,4 +1,4 @@
-const images = document.querySelectorAll("[data-scr]")
+const images = document.querySelectorAll("[data-src]")
 
 function preloudImage(img){
     const src = img.getAttribute("data-src");
