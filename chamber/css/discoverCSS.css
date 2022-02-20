@@ -1,0 +1,47 @@
+/* for discover page*/
+.img1 { width: 250px; height: auto; margin: .5rem;}
+
+.img2 { width: 250px; height: auto; margin: .5rem;}
+
+.img3 { width: 250px; height: auto; margin: .5rem;}
+
+.img4 { width: 250px; height: auto; margin: .5rem;}
+
+.img5 { width: 250px; height: auto; margin: .5rem;}
+
+.img6 { width: 250px; height: auto; margin: .5rem;}
+
+.img7 { width: 250px; height: auto; margin: .5rem;}
+
+.img8 { width: 250px; height: auto; margin: .5rem;}
+
+.img9 { width: 250px; height: auto; margin: .5rem;}
+
+.container {
+    margin: 1rem auto;
+    max-width: 1048px;
+    display: grid;
+        grid-template-areas: 'img1 img2 img3'
+                             'img4 img5 img6'
+                             'img7 img8 img9';
+        grid-gap: 10px;
+        padding: 10px;
+}
+
+figcaption {font-size: smaller;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
+.rocorn {border-radius: 5px 150px;}
+/* simple opacity */
+.opac {opacity: .5;}
+.blur {filter: blur(1px) grayscale(75%);}
+.object {width: 100%; height: 100px ; object-fit: cover;}
+.shape-outside {border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}
+
+/* for paragraphs*/
+
+.p {
+    text-align: left;
+    text-align: center;
+}

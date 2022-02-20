@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="WDD 230: Assignmet Portal">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/discoverCSS.css">
         <link rel="stylesheet" href="css/large.css">
-        <link rel="stylesheet" href="/Lesson-7/css/lazyload.css">
-        <title>WDD 230: Assignmet Portal</title>
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/small.css">
+        <title>Discover</title>
     </head>
     <body>
         <header>
@@ -47,25 +47,42 @@
         <main>
             <br>
             <br>
-            <div class="grid-container">
-                         <picture>
-            <img src="images/dog1.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br>
-         <picture>
-            <img src="images/dog2.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br>
-         <picture>
-            <img src="images/dog3.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br> 
-         <picture>
-            <img src="images/dog4.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br>
-         <picture>
-            <img src="images/dog5.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br>
-         <picture>
-            <img src="images/dog6.jpg" data-src="images/placeholder-300x400.png" alt="placeholder">
-         </picture><br>
+            <div class="container">
+                <figure>
+                    <img class="norm" src="images/335x480SanFranBridge.gif" loading="lazyload">
+                    <figcaption>:hover pseduo-class box-shadow</figcaption>
+                </figure>
+                <figure><img class="rocorn" src="images/300x400Tower.gif" loading="lazyload">
+                    <figcaption>border-radius</figcaption>
+                </figure>
+                <figure><img class="opac" src="images/300x400TownHall.jpg" loading="lazyload">
+                    <figcaption>opacity</figcaption>
+                </figure>
+                <figure><img class="blur" src="images/225x300TallTower.jpg" loading="lazyload">
+                    <figcaption>filter: blur and grayscale</figcaption>
+                </figure>
+                <figure><img class="object" src="images/270x480NewYork.gif" loading="lazyload">
+                    <figcaption>object-fit<br>☼ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
+                </figure>
+                <figure><img class="shape-outside" src="images/300x400CityImg.jpg" loading="lazyload">
+                    <figcaption>shape-outside<br><br> 
+                        <br> Applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status.
+                        </figcaption>
+                </figure>
+            </div>
+            <br>
+            <div class="container">
+                <figure>
+                    <img class="norm" src="images/300x400Needle.gif" loading="lazyload">
+                    <figcaption>:hover pseduo-class box-shadow</figcaption>
+                </figure>
+                <figure><img class="rocorn" src="images/300x400EmpireState.jpg" loading="lazyload">
+                    <figcaption>border-radius</figcaption>
+                </figure>
+                <figure><img class="opac" src="images/300x400CitySkyView.jpg" loading="lazyload">
+                    <figcaption>opacity</figcaption>
+                </figure>
+            </div>
             <br>
             <br>
         </main>
@@ -74,6 +91,10 @@
                 <date></date>
             </div>
             <p>Chamber of Commerce:WDD230:2022</p>
+            <div class="container">
+                <p id="result"></p>
+                <p>Hit run to reload</p>
+            </div>
         </footer>
         <script type="text/javascript" src="js/chamber.js"></script>
         <script type="text/javascript" src="/Lesson-7/js/lazyload.js"></script>
