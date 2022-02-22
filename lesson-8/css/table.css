@@ -38,5 +38,11 @@ tbody tr:nth-child(even){
 .lastRowColor{
     background-color: aqua;
 }
+.specialText {
+    font-style: italic;
+}
+.text-alignment{
+    text-align: center;
+}
 /*table tr td:nth-child(2) {background-color: yellow;}
 table tfoot td:nth-child(1) { width: 100% }
