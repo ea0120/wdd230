@@ -13,6 +13,8 @@ table {
 table thead{
     margin: 10px auto;
 	border: 1px solid gray;
+    text-align: center;
+    background-color: aquamarine;
 }
 table td {
     margin: 10px auto;
@@ -29,6 +31,12 @@ table tfoot {
 }
 tbody tr:nth-child(even){
     background-color: antiquewhite;
+}
+.rowcolor{
+    background-color: aquamarine;
+}
+.lastRowColor{
+    background-color: aqua;
 }
 /*table tr td:nth-child(2) {background-color: yellow;}
 table tfoot td:nth-child(1) { width: 100% }
