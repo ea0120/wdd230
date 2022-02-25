@@ -1,19 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230: Assignmet Portal">
 
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
-
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-
+        <title>WDD 230: Assignmet Portal</title>
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -21,36 +14,60 @@
 <!-- enhance-tablet -->
 <link href="css/medium.css" rel="stylesheet">
 <!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">  
 
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
 
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <!-- Navbar logo -->
+                <div class="nav-header">
+                <div class="nav-logo">
+                    <a href="#">
+                        <img src="images/world.png" alt="The world logo">
+                    </a>
+                </div>
+                </div>             
+                <!-- responsive navbar toggle button -->
+                <input type="checkbox" id="nav-check">
+                <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                </div>
+            
+                <!-- Navbar items -->
+                <div class="nav-links">
+                    <a href="dicover.html">Discover</a> 
+                    <a href="#">Directory</a>
+                    <a href="Join.html">Join</a>
+                    <a href="#">Contact</a>
+                    <a class="social" href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                    <a class="social" href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                    <a class="social" href="https://linkedin.com"><img src="images/linkedin.png" alt="linkedin"></a>
+                </div>
+            </div>
+        </header>
      
 </head>
+<br>
+<br>
 <body>
-<!-- HEADER HERE -->
-	<header>
- <h1>Course Proposal</h1>
-        <h2>Designing Web Forms</h2>
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="#">About</a></li>
-            <li class="active"><a href="#">Propose</a></li>
-            <li><a href="#">Winners</a></li>
-            <li><a href="#">Contact</a></li>    
-        </ul>
-    </nav>
-
 <!-- CONTENT HERE -->
 <main>
-    <h1>Course Proposal Application</h1>
+    <h1>Business Membership Application</h1>
     <form method="get" action="thanks.html">
     <fieldset>
         <legend>
-            Applicant Information
+            Business Applicant Information
         </legend>
        <label class="top">Frist Name*<input type="text" name="fname" required></label>
        <label class="top">Last Name*<input type="text" name="Lname" required></label>
@@ -58,45 +75,30 @@
        <label class="top">Email*<input type="email" name="email"placeholder="abcdefg@gmail.com"required></label>
        <label class="top">Website<input type="url" name="url"placeholder="http://"></label> 
     </fieldset>
+    <fieldset>
+        <label class="top">Tell Us about Your Business<input class="textBoxSize" type="textbox"></label>
+    </fieldset>
         <fieldset>
             <legend>
-                Course Information
+                Membership
             </legend>
             <div>
-                Membership
+                Select a Membership Type(Some Types May Come With Fees)
             </div>
             <label class="sbs"><input type="radio" name="membership" value="freeM"> Free Membership</label>  
             <label class="sbs"><input type="radio" name="membership" value="bronzeM"> Bronze Membership</label> 
             <label class="sbs"><input type="radio" name="membership" value="silverM"> Silver Membership</label>
             <label class="sbs"><input type="radio" name="memberships" value="goldM"> Gold Membership</label>
-            
-            <div>Software Needed</div>
-            <label class="sbs"><input type="checkbox" name="editing" value="Yes"> Photo Editing</label> 
-            <label class="sbs"><input type="checkbox" name="code" value="Yes"> Coding</label> 
-            <label class="sbs"><input type="checkbox" name="process" value="Yes"> Preprocessor</label> 
-            <label class="sbs"><input type="checkbox" name="client" value="Yes"> FTP Client</label> 
         </fieldset>
+
         <fieldset>
             <legend>
                 Funding
             </legend>
             <label class="top">Anticipated Completion Data<input type="date" name="completedDate"></label>
-            <label class="top"> Course Subject
-                <select name="subject">
-                    <option value="">Please Select &#9662;</option>
-                    <option value="softwares">Software Development</option>
-                    <option value="creative">Creative Professional</option>
-                    <option value="info">Information Technology</option>
-                    <option value="data">Data Professional</option>
-                    <option value="constrution">Construction</option>
-                    <option value="manufacturing">Manufacturing</option>
-                    <option value="business">Business Professional </option>
-                    <option value="security">Cyber Security</option>
-                </select>
-            </label>
-            <label class="top">How Many Authors<input type="number" name="authors"></label>
+            <label class="top">How Many Employees<input type="number" name="authors"></label>
         </fieldset>
-          <input type="submit" value="Propose My Course" class="submitBtn"> 
+          <input type="submit" value="Sign Me Up!" class="submitBtn"> 
         </form>
     </main>
     

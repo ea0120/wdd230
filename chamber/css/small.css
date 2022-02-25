@@ -183,6 +183,12 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+/*----------- textbox --------------*/
+  .textBoxSize{
+    max-width: 60px;
+    max-height: 70px;
+  }
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
