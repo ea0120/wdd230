@@ -4,6 +4,13 @@ const cards = document.querySelector('.cards');
 // this snippet below was give to me without much context.
 prophets[2].birthdate
 
+fetch(requestURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      console.table(jsonObject);  // temporary checking for valid response and data parsing
+  })
   const prophets = jsonObject['prophets'];
   prophets.forEach(displayProphets);
 
