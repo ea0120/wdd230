@@ -23,6 +23,7 @@ h1 {
   border-bottom: 1px solid #eee;
   text-shadow: 0 0 15px #999;
   width: 60%;
+  position: relative;
 }
 
 h2 {
