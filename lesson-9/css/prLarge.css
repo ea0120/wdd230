@@ -50,7 +50,7 @@ main {
 
 .grid{
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-areas: repeat(auto-fit, minmax(320px, 1fr));
 }
 /*
 .grid {
