@@ -2,7 +2,7 @@
 	.navbar {
 		z-index: 300;
 	}
-}
+
 
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
@@ -126,3 +126,4 @@ footer {
 .own {
   background-color: rosybrown;
 }
+} /* end of media query */

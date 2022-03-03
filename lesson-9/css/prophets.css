@@ -1,8 +1,7 @@
-@media (min-width: 768px) and (max-width:900px){
+@media (min-width: 767.98px) and (max-width:900px){
 	.navbar {
 		z-index: 300;
 	}
-}
 
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
@@ -126,3 +125,4 @@ footer {
 .own {
   background-color: rosybrown;
 }
+} /* end of media query */
