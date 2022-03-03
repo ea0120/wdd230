@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width:900px){
+@media (min-width: 576px) and (max-width: 767.98px) {
 	.navbar {
 		z-index: 300;
 	}
@@ -47,9 +47,9 @@ main {
 }
 
 .grid{
-  display: grid;
-  grid-template-areas: repeat(auto-fit, minmax(320px, 1fr));
-}
+    display: grid;
+    grid-template-areas: repeat(auto-fit, minmax(320px, 1fr));
+  }
 /*
 .grid {
   display: grid;
