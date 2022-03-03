@@ -22,7 +22,8 @@ h1 {
   border-bottom: 1px solid #eee;
   text-shadow: 0 0 15px #999;
   width: 60%;
-  position: relative;
+  text-align: center;
+  margin: 0 23rem;
 }
 
 h2 {
@@ -51,6 +52,14 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-areas: "prophets prophets prophets prophets"
+                         "prophets prophets prophets prophets"
+                         "prophets prophets prophets prophets";
+  }
 /*
 .grid {
   display: grid;
@@ -86,6 +95,8 @@ li > img {
 footer {
   border-top: 1px solid #555;
   padding: 20px;
+  text-align: center;
+  margin: 0 23rem;
 }
 
 .caption {
