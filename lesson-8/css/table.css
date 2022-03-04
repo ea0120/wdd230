@@ -21,6 +21,7 @@ table td {
 	border: 1px solid gray;
 	box-shadow: 0 0 30px var(--shadow);
     border-collapse: collapse;
+    padding: 14px;
 }
 table th{
     background-color: aquamarine;
