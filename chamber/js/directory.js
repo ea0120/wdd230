@@ -10,38 +10,32 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    prophets = jsonObject['businessDirectory'];
+    prophets.forEach(displayBusiness);
   })
 
-function displayProphets(prophet) {
+function displayBusiness(businessDirectory) {
   // Create elements to add to the document
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
-  let dob = document.createElement('h4');
-  let pob = document.createElement('h4');
-  let portrait = document.createElement('img');
+  let adr = document.createElement('h4');
+  let web = document.createElement('h4');
+
   
-  //Name of Prophet
-  h2.textContent = `${prophet.name} ${prophet.lastname}`;
+  //Name of business
+  h2.textContent = `${businessDirectory.name}`;
 
   //DOB
-  dob.textContent = `Date of Birth: ${prophet.birthdate}`
+  adr.textContent = `Address: ${businessDirectory.address}`
 
   //POB
-  pob.textContent = `Place of Birth: ${prophet.birthplace}`
+  web.textContent = `Website: ${businessDirectory.website}`
 
-  //Img Attributes
-  portrait.setAttribute('src', prophet.imageurl);
-  let altText = `Portait of ${prophet.name} ${prophet.lastname} - ${count}th Latter-day President`;
-  portrait.setAttribute('alt', altText);
-  portrait.setAttribute('loading', 'lazy');
 
   //Add children
   card.appendChild(h2);
-  card.appendChild(dob);
-  card.appendChild(pob);
-  card.appendChild(portrait);
+  card.appendChild(adr);
+  card.appendChild(web);
 
   //Add Prophet Card
   cards.appendChild(card);
