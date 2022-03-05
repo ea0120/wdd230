@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://ea0120.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
 
 //Count Prophets
@@ -10,8 +10,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    prophets = jsonObject['businessDirectory'];
-    prophets.forEach(displayBusiness);
+    businessDirectory = jsonObject['businessDirectory'];
+    businessDirectory.forEach(displayBusiness);
   })
 
 function displayBusiness(businessDirectory) {
@@ -31,6 +31,10 @@ function displayBusiness(businessDirectory) {
   //POB
   web.textContent = `Website: ${businessDirectory.website}`
 
+  //For Each
+    array.forEach(element => {
+      displayBusiness
+    });
 
   //Add children
   card.appendChild(h2);
