@@ -31,11 +31,6 @@ function displayBusiness(businessDirectory) {
   //POB
   web.textContent = `Website: ${businessDirectory.website}`
 
-  //For Each
-    array.forEach(element => {
-      displayBusiness
-    });
-
   //Add children
   card.appendChild(h2);
   card.appendChild(adr);
