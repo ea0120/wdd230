@@ -4,6 +4,7 @@ const cards = document.querySelector('.cards');
 //Count Prophets
 let count = 1;
 
+
 //Fetch Data from JSON
 fetch(requestURL)
   .then(function (response) {
