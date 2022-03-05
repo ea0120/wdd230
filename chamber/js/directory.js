@@ -20,6 +20,7 @@ function displayBusiness(businessDirectory) {
   let h2 = document.createElement('h2');
   let adr = document.createElement('h4');
   let web = document.createElement('h4');
+  let newRow = document.createElement('table')
   
   //Name of business
   h2.textContent = `${businessDirectory.name}`;
@@ -43,8 +44,4 @@ function displayBusiness(businessDirectory) {
   
   //Count Prophets
   count++;
-
-  // Adding the entire table to the body tag
-  document.getElementById('body').appendChild(table);
-
 }
