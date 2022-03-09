@@ -217,7 +217,7 @@ body{
 
 /* Join Page*/
 /* 64em is also 1028px (if basefont is 16px) */
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 300rem) {
 
     header, nav, main, footer {
         max-width: 64rem;
