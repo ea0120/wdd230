@@ -93,9 +93,8 @@ body{
 }
 .itemWelcome {
 	grid-area: welcome;
-
 	position: relative;
-	text-align: center;
+	text-align: center; 
 	color: white;
 }
 .itemWelcome button {
