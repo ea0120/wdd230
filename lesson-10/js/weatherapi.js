@@ -11,3 +11,8 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
+
+
+
+//  https://bulk.openweathermap.org/sample/
+// link for a bulk sample file in the openweather website
