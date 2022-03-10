@@ -15,4 +15,4 @@ fetch(apiURL)
 
 
 //  https://bulk.openweathermap.org/sample/
-// link for a bulk sample file in the openweather website
+// link for a bulk sample file in the openweather website. may come in handy
