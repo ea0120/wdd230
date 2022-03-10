@@ -35,7 +35,7 @@ function showData(jData) {
 }
 
 //Code Entry Point
-//fetch('https://api.openweathermap.org/data/2.5/weather?q=Denver&appid=ceff90d8e8582ab663ac5955eaebccaf')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Denver&appid=ceff90d8e8582ab663ac5955eaebccaf')
 fetch("weather.json")
 .then(res => res.json())
 .then(data => showData(data))
