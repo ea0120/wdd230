@@ -38,11 +38,8 @@
 	  display: block;
 	}
   .centered {
-    position: relative;
-    bottom: 50px;
-    right: 155px;
+    display: inline-flex;
   }
-   
 	/* when nav toggle button not checked */
 	.navbar #nav-check:not(:checked) ~ .nav-links {
 	  height: 0px;
