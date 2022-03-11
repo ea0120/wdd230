@@ -187,7 +187,11 @@ body{
 .flex-container div p {
 	font-size: 50px;
 }
-
+.centered {
+	position: relative;
+	bottom: 50px;
+	right: 300px;
+}
 /* for discover page*/
 .img1{
 	size: 300px 400px;

@@ -68,6 +68,11 @@
         padding: 10px;
     }
 }
+.centered {
+	position: relative;
+	bottom: 50px;
+	right: 155px;
+}
 /* for discover page*/
 .img1{
 	size: 300px 400px;
