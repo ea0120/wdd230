@@ -10,10 +10,7 @@ datefield.innerHTML = fulldate;
 
 if (typeof Storage !== "undefined") {
     if (localStorage.visitcount) {
-      document.getElementById("result").innerHTML =
-        "Welcome back, you've been here " +
-        localStorage.visitcount +
-        " times before.";
+      //document.getElementById("result").innerHTML = "Welcome back, you've been here " + localStorage.visitcount + " times before.";
       localStorage.visitcount = Number(localStorage.visitcount) + 1;
     } else {
       localStorage.visitcount = 1;
