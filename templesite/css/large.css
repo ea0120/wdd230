@@ -1,0 +1,47 @@
+.navbar{
+	height: 70px;
+	width: 100%;
+	padding: 14px 30px;
+	background-color: #1b4cd3;
+	position: relative;
+}
+.navbar .nav-header{
+	display: inline;
+}
+.navbar .nav-header .nav-logo{
+	display: inline-block;
+	margin-top: -7px;
+}
+.navbar .nav-links{
+	display: inline;
+	float: right;
+	font-size: 18px;
+}
+.navbar .nav-links .loginBtn{
+	display: inline-block;
+	padding: 5px 15px;
+	margin-left: 20px;
+	font-size: 17px;
+	color: rgb(9, 14, 90);
+}
+.navbar .nav-links a{
+	padding: 10px 12px;
+	text-decoration: none;
+	font-weight: 550;
+	color: white;
+}
+/* Hover effects */
+	.navbar .nav-links a:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+/* responsive navbar toggle button */
+.navbar #nav-check, .navbar .nav-btn{
+	display: none;
+}  
+.social {
+	margin-right: 1px;
+}
+.social img {
+	width: 25px;
+	height: auto;
+}
