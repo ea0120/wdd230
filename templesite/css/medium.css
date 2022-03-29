@@ -56,3 +56,17 @@
 	  color: rgb(9, 14, 90);
 	}
 }
+.grid-container {
+	display: grid;
+	grid-template-areas:'mainItem'
+						'cleanAd' 
+						'pool'
+						'breakfastAd';
+
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.mainItem {
+	align-items: center;
+}
