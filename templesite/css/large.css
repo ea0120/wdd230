@@ -46,8 +46,17 @@
 	height: auto;
 }
 
-.mainItem {
+.mainItem img {
 	size: 300px 400px;
+}
+.mainItem h1 {
+	float: right;
+	font-size: x-large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainItem p {
+	float: right;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .mainItem button {
 	background-color: #04AA6D; /* Green */
@@ -62,13 +71,13 @@
 	cursor: pointer;
 	border-radius: 12px;
 }
-.cleanAd {
+.cleanAd img{
 	size: 300px 400px;
 }
-.pool{
+.pool img{
 	size: 300px 400px;
 }
-.breakfastAd {
+.breakfastAd img{
 	size: 300px 400px;
 }
 
