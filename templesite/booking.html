@@ -40,6 +40,66 @@
             </div> 
         </header>   
 <body>
+    <br>
+<br>
+<body>
+<!-- CONTENT HERE -->
+<main>
+    <h1>Business Membership Application</h1>
+    <form method="get" action="thanks.html">
+    <fieldset>
+        <legend>
+            Business Applicant Information
+        </legend>
+       <label class="top">Frist Name*<input type="text" name="fname" required></label>
+       <label class="top">Last Name*<input type="text" name="Lname" required></label>
+       <label class="top">Phone<input type="tel" name="phone"placeholder="123-457-789"></label>
+       <label class="top">Email*<input type="email" name="email"placeholder="abcdefg@gmail.com"required></label>
+       <label class="top">Your Current Place of Employment's Website<input type="url" name="url"placeholder="http://"></label> 
+    </fieldset>
+    <fieldset>
+        <label class="top">Tell Us about Your Business<input class="textBoxSize" type="textbox"></label>
+    </fieldset>
+        <fieldset>
+            <legend>
+                Membership
+            </legend>
+            <div>
+                Select a Membership Type(Some Types May Come With Fees)
+            </div>
+            <label class="sbs"><input type="radio" name="membership" value="freeM"> Free Membership</label>  
+            <label class="sbs"><input type="radio" name="membership" value="bronzeM"> Bronze Membership</label> 
+            <label class="sbs"><input type="radio" name="membership" value="silverM"> Silver Membership</label>
+            <label class="sbs"><input type="radio" name="memberships" value="goldM"> Gold Membership</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Funding
+            </legend>
+            <label class="top">Sign-up Completion Date<input type="date" name="completedDate"></label>
+            <label class="top">Current Job Position<input type="text" name="jobPosistion" pattern="(?=.*[A-Z]){6,}"></label>
+            <label class="top">How Many Employees<input type="number" name="authors"></label>
+        </fieldset>
+          <input type="submit" value="Sign Me Up!" class="submitBtn"> 
+        </form>
+    </main>
     
+<!-- FOOTER HERE -->   
+<footer>
+    <!-- #Hidden from user#
+    <div class="container">
+        <p id="result"></p>
+    </div>-->
+    <div>
+        <date></date>
+    </div>
+    <div>
+        &copy; <span id="year"></span> | Emma Amos | Indiana
+    </div>
+</footer>
+<script src="js/chamber.js"></script>
+<script src="/lesson2/scripts/main.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
