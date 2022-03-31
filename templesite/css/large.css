@@ -61,6 +61,9 @@
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.mainItem button {
+	align-items: center;
+}
 
 .cleanAd img{
 	size: 300px 400px;
@@ -80,10 +83,11 @@
 
 .grid-container {
 	display: grid;
+	grid-column: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
 	grid-template-areas:'mainItem mainItem mainItem'
-						'cleanAd  		   pool'
+						'cleanAd	pool'
 						'breakfastAd breakfastAd breakfastAd';
-
 	grid-gap: 10px;
 	padding: 10px;
 }
