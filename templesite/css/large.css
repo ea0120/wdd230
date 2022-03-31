@@ -46,7 +46,9 @@
 	width: 25px;
 	height: auto;
 }
-
+.mainItem {
+	align-items: center;
+}
 .mainItem img {
 	size: 300px 400px;
 }
@@ -56,22 +58,10 @@
 	text-align: center;
 }
 .mainItem p {
-	float: right;
+	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.mainItem button {
-	background-color: #04AA6D; /* Green */
-	border: none;
-	color: white;
-	padding: 10px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 8px;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 12px;
-}
+
 .cleanAd img{
 	size: 300px 400px;
 }
