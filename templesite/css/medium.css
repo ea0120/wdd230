@@ -61,9 +61,9 @@
 	size: 300px 400px;
 }
 .mainItem h1 {
-	float: right;
 	font-size: x-large;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
 }
 .mainItem p {
 	float: right;
@@ -107,3 +107,22 @@
 	grid-gap: 10px;
 	padding: 10px;
 }
+
+.flex-container {
+	display: flex;
+}
+.flex-container > div {
+	padding: 20px;
+}
+.flex-container div img {
+	width: 100px;
+	height: 100px;
+}
+.flex-container div p {
+	font-size: 50px;
+}
+.centered {
+    display: inline-flex;
+	margin: 0 800px;
+	font-size: x-large;
+  }

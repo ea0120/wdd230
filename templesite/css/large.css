@@ -51,9 +51,9 @@
 	size: 300px 400px;
 }
 .mainItem h1 {
-	float: right;
 	font-size: x-large;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
 }
 .mainItem p {
 	float: right;
