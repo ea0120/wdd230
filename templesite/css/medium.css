@@ -91,11 +91,12 @@
 }
 
 .grid-container > div {
-	background-color: rgb(172, 227, 248);
+	background-color: rgb(255, 1, 1);
 	text-align: center;
 	padding: 20px 0;
 }
 .grid-container {
+	background-color: rgb(43, 255, 1);
 	display: grid;
 	grid-template-areas:'main'
 						'cleanAd' 
