@@ -82,12 +82,12 @@
 }
 
 .grid-container > div {
-	background-color: rgb(200, 219, 28);
+	background-color: rgb(229, 255, 0);
 	text-align: center;
 	padding: 20px 0;
 }
 .grid-container {
-	background-color: rgb(200, 219, 28);
+	background-color: rgb(225, 238, 105);
 	display: grid;
 	grid-column: 1fr 1fr 1fr;
 	grid-row: 1fr 1fr 1fr;
