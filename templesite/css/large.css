@@ -1,4 +1,5 @@
 /*main page*/
+
 .navbar{
 	height: 70px;
 	width: 100%;
@@ -46,7 +47,9 @@
 	width: 25px;
 	height: auto;
 }
+@media (min-width: 900.98px) and (max-width:34rem){
 .mainItem {
+	grid-area: main;
 	align-items: center;
 }
 .mainItem img {
@@ -61,15 +64,18 @@
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.mainItem button {
-	align-items: center;
-}
-
 .cleanAd img{
+	grid-area: cleanAd;
 	size: 300px 400px;
+}
+.pool{
+	grid-area: pool;
 }
 .pool img{
 	size: 300px 400px;
+}
+.breakfastAd{
+	grid-area: breakfastAd;
 }
 .breakfastAd img{
 	size: 300px 400px;
@@ -80,37 +86,15 @@
 	text-align: center;
 	padding: 20px 0;
 }
-
 .grid-container {
 	display: grid;
 	grid-column: 1fr 1fr 1fr;
 	grid-row: 1fr 1fr 1fr;
-	grid-template-areas:'mainItem mainItem mainItem'
+	grid-template-areas:'main main main'
 						'cleanAd	pool'
 						'breakfastAd breakfastAd breakfastAd';
 	grid-gap: 10px;
 	padding: 10px;
 }
-
-.flex-container {
-	display: flex;
-}
-.flex-container > div {
-	padding: 20px;
-}
-.flex-container div img {
-	width: 100px;
-	height: 100px;
-}
-.flex-container div p {
-	font-size: 50px;
-}
-.centered {
-    display: inline-flex;
-	margin: 0 800px;
-	font-size: x-large;
-  }
-.three-col{
-	gap: 40px;
 }
 /*.cssRule { border: 1px gray; padding: .5rem; margin-top: 1rem; margin-bottom: 1rem; margin-left: 2rem; margin-right: 2rem;}
