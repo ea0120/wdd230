@@ -223,6 +223,47 @@ body{
 	padding: 10px;
 }
 
+/*--Discover Page--*/
+@media (min-width: 901px) and (max-width:34rem){
+	.itemOne{
+		grid-area: 1;
+	}
+	.itemTwo{
+		grid-area: 2;
+	}
+	.itemThree{
+		grid-area: 3;
+	}
+	.itemFour{
+		grid-area: 4;
+	}
+	.itemFive{
+		grid-area: 5;
+	}
+	.itemSix{
+		grid-area: 6;
+	}
+	.itemSeven{
+		grid-area: 7;
+	}
+	.itemEight{
+		grid-area: 8;
+	}
+	.itemNine{
+		grid-area: 9;
+	}
+	
+	.grid-containment {
+		display: grid;
+		grid-column: 1fr 1fr;
+		grid-row: 1fr 1fr;
+		grid-template-areas:'1 2 3'
+							'4 5 6'
+							'7 8 9';
+		grid-gap: 10px;
+		padding: 10px;
+	  }
+	}
 /* Join Page*/
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 300rem) {
