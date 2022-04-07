@@ -90,6 +90,7 @@ body{
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 12px;
+	font-weight: bold;
 }
 .itemWelcome {
 	grid-area: welcome;
@@ -120,6 +121,9 @@ body{
 	position: absolute;
 	bottom: 50px;
 	right: 30px;
+}
+.bottom-right button {
+	font-weight: bold;
 }
 .itemWelcome img {
 	padding: 20px;
