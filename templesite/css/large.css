@@ -13,6 +13,12 @@
 .navbar .nav-header .nav-logo{
 	display: inline-block;
 	margin-top: -7px;
+	max-width: 25%;
+	max-height: 25%;
+}
+.navbar .nav-header img{
+	max-width: 50%;
+	max-height: 50%;
 }
 .navbar .nav-links{
 	display: inline;
