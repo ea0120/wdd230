@@ -29,3 +29,34 @@ function displayBusiness(businessDirectory) {
     });
     table.appendChild(tr);
 }
+
+function changeToList() {
+  var divDir = document.getElementById("chamberdir");
+  var dirTable = document.getElementById("dirTable");
+
+  if (dirTable != null)
+  {
+    dirTable.remove();
+    
+    //Fetch Data from JSON
+    fetch(requestURL)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (jsonObject) {
+        businessDirectory = jsonObject['businessDirectory'];
+        divDir.innerHTML += "<ul>";
+        businessDirectory.forEach(function(item, index) {
+          var tempStr = "<li>";
+          tempStr += item.name;
+          tempStr += " - ";
+          tempStr += item.address;
+          tempStr += "</li>";
+          divDir.innerHTML += tempStr;
+        });
+        divDir.innerHTML += "</ul>";
+      })
+  } else {
+    window.location.replace("directory.html");
+  }
+}

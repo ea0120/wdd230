@@ -24,14 +24,3 @@ if (typeof Storage !== "undefined") {
   
   console.log("localstorage visit count now: " + localStorage.visitcount);
   // localStorage.clear();
-
-  //list veiw button
-  onDisplayModeChange(mode:1 number):2 void {
-    this.displayMode = mode 1;
-  }
-  //origenal code peice
-  //onDisplayModeChange(mode: number): void {
-  //this.displayMode = mode;
-  //}
-  //found code at:
-  //https://stackoverflow.com/questions/49795347/how-to-switch-between-grid-and-list-view-using-typescript-angular4
