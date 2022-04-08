@@ -2,7 +2,7 @@ const requestURL = 'https://ea0120.github.io/wdd230/chamber/json/data.json';
 const table = document.querySelector('table');
 let headrow = document.createElement('tr');
 table.appendChild(headrow);
-let header = ["Name", "Address", "Website"];
+let header = ["Name", "Address", "Website","Directions"];
 header.forEach(function(item, index) {
     let tablehead = document.createElement('th');
     tablehead.textContent = item;
@@ -21,7 +21,7 @@ fetch(requestURL)
 
 function displayBusiness(businessDirectory) {
     let tr = document.createElement('tr');
-    let items = [`${businessDirectory.name}`,`${businessDirectory.address}`,`${businessDirectory.website}`];
+    let items = [`${businessDirectory.name}`,`${businessDirectory.address}`,`${businessDirectory.website}`,`${businessDirectory.directions}`];
     items.forEach(function(item, index) {
         let td = document.createElement('td');
         td.textContent = item;

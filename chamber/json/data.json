@@ -2,21 +2,21 @@
     "businessDirectory":[
         {
           "name" :"Sesame Street",
-           "address" : "123ABC",
+           "address" : "34-12 36th St, Queens, NY 11106",
            "website" :"https://pbskids.org/sesame/",
-           "directions": "https://www.google.com/maps/place/Kaufman+Astoria+Studios/@40.7572018,-73.9264902,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25f2548b66bcf:0x3904ca6229d15021!8m2!3d40.7571978!4d-73.9243015"
+           "directions": "https://www.google.com/maps/@40.7571978,-73.9264902,17z"
         },
         {
             "name" :"Allen County Liberary",
              "address" : "900 Library Plz, Fort Wayne, IN 46802-3699",
              "website" :"https://acpl.lib.in.us/",
-             "directions":"https://www.google.com/maps/place/Allen+County+Public+Library+-+Main/@41.0771749,-85.1454256,17z/data=!3m1!4b1!4m5!3m4!1s0x8815e49298b68fb3:0xfb22715fb841d913!8m2!3d41.0771709!4d-85.1432369"
+             "directions":"https://www.google.com/maps/@40.7571978,-73.9264902,17z"
           },
           {
             "name" :"Disney Imagineering",
              "address" : "1401 St Glendale, California",
              "website" :"https://sites.disney.com/waltdisneyimagineering/#special",
-             "directions": "https://www.google.com/maps/place/Walt+Disney+Imagineering/@36.903257,-103.267778,4z/data=!4m9!1m2!2m1!1sdisney+imagineering!3m5!1s0x80c2c00dbef4eb95:0xeb1fe86c51b13b77!8m2!3d34.161897!4d-118.2883687!15sChNkaXNuZXkgaW1hZ2luZWVyaW5nkgEPZGVzaWduX2VuZ2luZWVy"
+             "directions": "https://www.google.com/maps/@40.7571978,-73.9264902,17z"
           },
           {
             "name" :"Disney Imagineering Campus",
@@ -34,7 +34,7 @@
             "name" :"Church of Jesus Christ",
              "address" : "Online",
              "website" :"https://www.churchofjesuschrist.org/?lang=eng",
-             "directions":"https://www.google.com/maps/place/The+Church+of+Jesus+Christ+of+Latter-day+Saints/@41.0086926,-85.8287772,9z/data=!4m9!1m2!2m1!1sChurch+Of+Jesus+Christ+Of+Latter-Day+Saints!3m5!1s0x8815d9d74f9499d3:0x75a88957520a480a!8m2!3d41.1415285!4d-85.4335231!15sCitDaHVyY2ggT2YgSmVzdXMgQ2hyaXN0IE9mIExhdHRlci1EYXkgU2FpbnRzIgOIAQGSAStjaHVyY2hfb2ZfamVzdXNfY2hyaXN0X29mX2xhdHRlcl9kYXlfc2FpbnRz"
+             "directions":"https://www.google.com/maps/@40.7571978,-73.9264902,17z"
           }
 
     ]

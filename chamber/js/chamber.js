@@ -26,8 +26,8 @@ if (typeof Storage !== "undefined") {
   // localStorage.clear();
 
   //list veiw button
-  onDisplayModeChange(mode, number); void {
-    this:displayMode = mode,
+  onDisplayModeChange(mode:1 number):2 void {
+    this.displayMode = mode 1;
   }
   //origenal code peice
   //onDisplayModeChange(mode: number): void {
