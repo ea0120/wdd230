@@ -1,24 +1,25 @@
-@media (min-width: 300px) and (max-width: 767x) {
+/*main page
+@media (min-width: 300px) and (max-width: 767px) {
 	.navbar {
 		z-index: 300;
 	}
 	.navbar .nav-btn{
-	  display: inline-block;
-	  position: absolute;
-	  top: 0px;
-	  right: 0px;
+		display: inline-block;
+		position: absolute;
+		top: 0px;
+		right: 0px;
 	}
 	.navbar .nav-btn label {
-	  display: inline-block;
-	  width: 80px;
-	  height: 70px;
-	  padding: 25px;
+		display: inline-block;
+		width: 80px;
+		height: 70px;
+		padding: 25px;
 	}
 	.navbar .nav-btn label span {
-	  display: block;
-	  height: 10px;
-	  width: 25px;
-	  border-top: 3px solid #eee;
+		display: block;
+		height: 10px;
+		width: 25px;
+		border-top: 3px solid #eee;
 	}
 	.navbar .nav-header .nav-logo{
 		display: inline-block;
@@ -31,98 +32,103 @@
 		max-height: 50%;
 	}
 	.navbar .nav-btn label:hover, .navbar #nav-check:checked ~ .nav-btn label {
-	  background-color: rgb(9, 14, 90);
+		background-color: rgb(9, 14, 90);
 	}
 	.navbar .nav-links{
-	  position: absolute;
-	  display: block;
-	  text-align: center;
-	  width: 50%;
-	  background-color: rgb(9, 14, 90);
-	  transition: all 0.3s ease-in;
-	  overflow-y: hidden;
-	  top: 70px;
-	  right: 0px;
+		position: absolute;
+		display: block;
+		text-align: center;
+		width: 50%;
+		background-color: rgb(9, 14, 90);
+		transition: all 0.3s ease-in;
+		overflow-y: hidden;
+		top: 70px;
+		right: 0px;
 	}
 	.navbar .nav-links a {
-	  display: block;
+		display: block;
 	}
-  .centered {
-    display: inline-flex;
-  }
-	/* when nav toggle button not checked */
+	.centered {
+	display: inline-flex;
+	}
+	/* when nav toggle button not checked*
 	.navbar #nav-check:not(:checked) ~ .nav-links {
-	  height: 0px;
+		height: 0px;
 	}
-   
-	/* when nav toggle button is checked */
+
+	/* when nav toggle button is checked*
 	.navbar #nav-check:checked ~ .nav-links {
-	  height: calc(100vh - 70px);
-	  overflow-y: auto;
+		height: calc(100vh - 70px);
+		overflow-y: auto;
 	}
 	.navbar .nav-links .loginBtn {
-	  padding: 10px 40px ;
-	  margin: 20px;
-	  font-size:  18px;
-	  font-weight: bold;
-	  color: rgb(9, 14, 90);
+		padding: 10px 40px ;
+		margin: 20px;
+		font-size:  18px;
+		font-weight: bold;
+		color: rgb(9, 14, 90);
 	}
-}
+	.body h1 {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: xx-large;
+	}
+	.body h2 {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: large;
+	}
+	.mainItem {
+		grid-area: main;
+		align-items: center;
+	}
+	.mainItem img {
+		max-width: 50%;
+		max-height: 50%;
+	}
+	.mainItem h1 {
+		font-size: x-large;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		text-align: center;
+	}
+	.mainItem p {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+	.cleanAd img{
+		grid-area: cleanAd;
+		max-width: 50%;
+		max-height: 50%;
+	}
+	.pool{
+		grid-area: pool;
+	}
+	.pool img{
+		max-width: 70%;
+		max-height: 70%;
+	}
+	.breakfastAd{
+		grid-area: breakfastAd;
+		
+	}
+	.breakfastAd img{
+		size: 300px 400px;
+		max-width: 50%;
+		max-height: 50%;
+	}
 
-.mainItem {
-	grid-area: main;
-	align-items: center;
+	.grid-container > div {
+		background-color: rgb(125, 228, 247);
+		text-align: center;
+		padding: 20px 0;
+	}
+	.grid-container {
+		background-color: rgb(170, 238, 238);
+		grid-template-areas:'mainItem'
+							'cleanAd' 
+							'pool'
+							'breakfastAd';
+		grid-gap: 10px;
+		padding: 10px;
 }
-.mainItem img {
-	max-width: 50%;
-	max-height: 50%;
-}
-.mainItem h1 {
-	font-size: x-large;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-align: center;
-}
-.mainItem p {
-	text-align: center;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.cleanAd img{
-	grid-area: cleanAd;
-	max-width: 50%;
-	max-height: 50%;
-}
-.pool{
-	grid-area: pool;
-	max-width: 50%;
-	max-height: 50%;
-}
-.pool img{
-	max-width: 50%;
-	max-height: 50%;
-}
-.breakfastAd{
-	grid-area: breakfastAd;
-	
-}
-.breakfastAd img{
-	size: 300px 400px;
-	max-width: 50%;
-	max-height: 50%;
-}
-
-.grid-container > div {
-	background-color: rgb(92, 0, 23);
-	text-align: center;
-	padding: 20px 0;
-}
-.grid-container {
-	background-color: rgb(138, 11, 11);
-	display: grid;
-	grid-template-areas:'mainItem'
-						'cleanAd' 
-						'pool'
-						'breakfastAd';
-
-	grid-gap: 10px;
-	padding: 10px;
 }
