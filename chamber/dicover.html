@@ -48,7 +48,26 @@
         <main>
             <br>
             <br>
-            <!--button to turn into list veiw goes here-->
+                <!--button for grid to list veiw-->
+                <div class="btn-group pull-right">
+                    <button class="btn btn-white" type="button"(click)="onDisplayModeChange(1)"
+                                    [ngClass]="{'btn-primary active': displayMode === 1}" >
+                                    <i class="fa fa-th"></i>
+                    </button>
+                    <button class="btn btn-white" type="button"  (click)="onDisplayModeChange(2)"
+                                    [ngClass]="{'btn-primary active': displayMode === 2}" >
+                                    <i class="fa fa-list"></i>
+                    </button>
+                    </div>
+                    <!-- grid -->
+                    <div class="row" *ngIf="displayMode === 1">
+                        <app-grid-container *ngFor='let product of productsList' [product]="product"></app-grid-container>
+                    </div>
+                    <!-- List -->
+                    <div class="row" *ngIf="displayMode === 2">
+                        <app-list-container *ngFor='let product of productsList' [product]="product"> </app-list-container>
+                    </div>
+
             <div class="grid-containment"> 
                 <div class="container grid-containment">
                     <figure>
@@ -95,7 +114,6 @@
             <p>Chamber of Commerce:WDD230:2022</p>
             <div class="container">
                 <p id="result"></p>
-                <p>Hit run to reload</p>
             </div>
         </footer>
         <script src="js/chamber.js"></script>

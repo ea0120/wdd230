@@ -24,3 +24,12 @@ if (typeof Storage !== "undefined") {
   
   console.log("localstorage visit count now: " + localStorage.visitcount);
   // localStorage.clear();
+
+  //list veiw button
+  onDisplayModeChange(mode, number); void {
+    this:displayMode = mode,
+  }
+  //origenal code peice
+  //onDisplayModeChange(mode: number): void {
+  //this.displayMode = mode;
+  //}

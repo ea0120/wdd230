@@ -165,6 +165,11 @@ body{
 	width: 100px;
 	height: auto;
 }
+/*veiw list button css*/
+button.active {
+	color: green;
+}
+
 .grid-container > div {
 	background-color: rgb(14, 176, 240);
 	text-align: center;
@@ -196,32 +201,6 @@ body{
 	margin: 0 800px;
 	font-size: x-large;
   }
-/* for discover page*/
-.img1{
-	size: 300px 400px;
-}
-.img2{
-	size: 300px 400px;
-}
-.img3{
-	size: 300px 400px;
-}
-.img4{
-	size: 300px 400px;
-}
-.img5{
-	size: 300px 400px;
-}
-.img6{
-	size: 300px 400px;
-}
-.grid-container_dis {
-	display: grid;
-	grid-template-areas: 'img1 img2 img3'
-						 'img4 img5 img6';
-	grid-gap: 10px;
-	padding: 10px;
-}
 
 /*--Discover Page--*/
 @media (min-width: 901px) and (max-width:34rem){
