@@ -1,4 +1,4 @@
-/*main page
+/*main page*/
 	@media (min-width:  767.98px) and (max-width:1500px){
 	.navbar {
 		z-index: 300;
@@ -49,12 +49,12 @@
 		display: block;
 	}
 
-	/* when nav toggle button not checked *
+	/* when nav toggle button not checked */
 	.navbar #nav-check:not(:checked) ~ .nav-links {
 		height: 0px;
 	}
 
-	/* when nav toggle button is checked *
+	/* when nav toggle button is checked */
 	.navbar #nav-check:checked ~ .nav-links {
 		height: calc(100vh - 70px);
 		overflow-y: auto;
