@@ -1,20 +1,10 @@
 // select the elements to manipulate (output to)
-const datefield = document.getElementsByClassName("date");
-
-console.log(datefield);
+const datefield = document.getElementsById("date");
 
 // derive the current date using a date object
 const now = new Date();
-
-console.log(now);
-
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-
-console.log(fulldate);
-
 datefield.innerHTML = fulldate;
-
-console.log(datefield);
 
 if (typeof Storage !== "undefined") {
     if (localStorage.visitcount) {
@@ -33,5 +23,4 @@ if (typeof Storage !== "undefined") {
   }
   
   console.log("localstorage visit count now: " + localStorage.visitcount);
-  
   // localStorage.clear();
