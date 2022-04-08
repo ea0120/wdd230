@@ -54,6 +54,9 @@
 		height: auto;
 	}
 	
+	.body{
+		background-color: aliceblue;
+	}
 	.body h1 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,6 +67,7 @@
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: large;
 	}
+	
 	.mainItem {
 		grid-area: main;
 		align-items: center;
