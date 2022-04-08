@@ -1,0 +1,49 @@
+h1 {
+    background-color: aqua;
+    text-align: center;
+    margin: 10px auto;
+	border: 1px solid gray;
+}
+table {
+	margin: 10px auto;
+	border: 1px solid gray;
+	box-shadow: 0 0 30px var(--shadow);
+    border-collapse: collapse;
+}
+table thead{
+    margin: 10px auto;
+	border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: aquamarine;
+}
+table td {
+    margin: 10px auto;
+	border: 1px solid gray;
+	box-shadow: 0 0 30px var(--shadow);
+    border-collapse: collapse;
+    padding: 14px;
+}
+table th{
+    background-color: aquamarine;
+
+}
+table tfoot {
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: antiquewhite;
+}
+.rowcolor{
+    background-color: aquamarine;
+}
+.lastRowColor{
+    background-color: aqua;
+}
+.specialText {
+    font-style: italic;
+}
+.text-alignment{
+    text-align: center;
+}
+/*table tr td:nth-child(2) {background-color: yellow;}
+table tfoot td:nth-child(1) { width: 100% }
