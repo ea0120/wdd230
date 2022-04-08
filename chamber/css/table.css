@@ -45,5 +45,14 @@ tbody tr:nth-child(even){
 .text-alignment{
     text-align: center;
 }
-/*table tr td:nth-child(2) {background-color: yellow;}
-table tfoot td:nth-child(1) { width: 100% }
+
+#switchview {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
