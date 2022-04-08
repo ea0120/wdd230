@@ -1,4 +1,4 @@
-@media (min-width: 376px) and (max-width: 767.98px) {
+@media (min-width: 300px) and (max-width: 767x) {
 	.navbar {
 		z-index: 300;
 	}
@@ -70,10 +70,12 @@
 }
 
 .mainItem {
+	grid-area: main;
 	align-items: center;
 }
 .mainItem img {
-	size: 300px 400px;
+	max-width: 50%;
+	max-height: 50%;
 }
 .mainItem h1 {
 	font-size: x-large;
@@ -85,13 +87,27 @@
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cleanAd img{
-	size: 300px 400px;
+	grid-area: cleanAd;
+	max-width: 50%;
+	max-height: 50%;
+}
+.pool{
+	grid-area: pool;
+	max-width: 50%;
+	max-height: 50%;
 }
 .pool img{
-	size: 300px 400px;
+	max-width: 50%;
+	max-height: 50%;
+}
+.breakfastAd{
+	grid-area: breakfastAd;
+	
 }
 .breakfastAd img{
 	size: 300px 400px;
+	max-width: 50%;
+	max-height: 50%;
 }
 
 .grid-container > div {

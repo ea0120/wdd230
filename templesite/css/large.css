@@ -57,9 +57,12 @@
 .mainItem {
 	grid-area: main;
 	align-items: center;
+	float: left;
 }
 .mainItem img {
 	size: 300px 400px;
+	max-width: 90%;
+	max-height: 90%;
 }
 .mainItem h1 {
 	font-size: x-large;
@@ -72,19 +75,25 @@
 }
 .cleanAd img{
 	grid-area: cleanAd;
-	size: 300px 400px;
+	max-width: 90%;
+	max-height: 90%;
+	float: right;
 }
 .pool{
 	grid-area: pool;
+	float: left;
 }
 .pool img{
-	size: 300px 400px;
+	max-width: 90%;
+	max-height: 90%;
 }
 .breakfastAd{
 	grid-area: breakfastAd;
+	float: right;
 }
 .breakfastAd img{
-	size: 300px 400px;
+	max-width: 90%;
+	max-height: 90%;
 }
 
 .grid-container > div {
@@ -98,7 +107,7 @@
 	grid-column: 1fr 1fr 1fr;
 	grid-row: 1fr 1fr 1fr;
 	grid-template-areas:'main main main'
-						'cleanAd	pool'
+						'cleanAd pool'
 						'breakfastAd breakfastAd breakfastAd';
 	grid-gap: 10px;
 	padding: 10px;

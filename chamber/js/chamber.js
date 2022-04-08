@@ -33,3 +33,5 @@ if (typeof Storage !== "undefined") {
   //onDisplayModeChange(mode: number): void {
   //this.displayMode = mode;
   //}
+  //found code at:
+  //https://stackoverflow.com/questions/49795347/how-to-switch-between-grid-and-list-view-using-typescript-angular4
