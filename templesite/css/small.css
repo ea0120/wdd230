@@ -1,5 +1,8 @@
 /*main page*/
 @media (min-width: 300px) and (max-width: 767px) {
+	body {
+		background-color: rgba(204, 232, 236, 0.911)
+	}
 	.navbar{
 		height: 70px;
 		width: 100%;
@@ -59,7 +62,6 @@
 	.navbar #nav-check:not(:checked) ~ .nav-links {
 		height: 0px;
 	}
-
 	/* when nav toggle button is checked*/
 	.navbar #nav-check:checked ~ .nav-links {
 		height: calc(100vh - 70px);
@@ -72,12 +74,19 @@
 		font-weight: bold;
 		color: rgb(9, 14, 90);
 	}
-	.body h1 {
+	.social {
+		margin-right: 1px;
+	}
+	.social img {
+		width: 25px;
+		height: auto;
+	}
+	body h1 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: xx-large;
 	}
-	.body h2 {
+	body h2 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: large;
@@ -134,5 +143,5 @@
 							'breakfastAd';
 		grid-gap: 10px;
 		padding: 10px;
-}
+	}
 }

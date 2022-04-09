@@ -1,5 +1,8 @@
 /*main page*/
-	@media (min-width:  767.98px) and (max-width:1500px){
+	@media (min-width:  768px) and (max-width:1500px){
+	body {
+		background-color: rgba(204, 232, 236, 0.911)
+	}
 	.navbar{
 		height: 70px;
 		width: 100%;
@@ -53,16 +56,12 @@
 		width: 25px;
 		height: auto;
 	}
-	
-	.body{
-		background-color: aliceblue;
-	}
-	.body h1 {
+	body h1 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: xx-large;
 	}
-	.body h2 {
+	body h2 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: large;
@@ -73,7 +72,8 @@
 		align-items: center;
 	}
 	.mainItem img {
-		align-items: center;
+		max-width: 60%;
+		max-height: 60%;
 	}
 	.mainItem h1 {
 		font-size: x-large;
@@ -86,20 +86,23 @@
 	}
 	.cleanAd img{
 		grid-area: cleanAd;
+		max-width: 60%;
+		max-height: 60%;
 	}
 	.pool{
 		grid-area: pool;
 	}
 	.pool img{
-		align-items: center;
+		max-width: 60%;
+		max-height: 60%;
 	}
 	.breakfastAd{
 		grid-area: breakfastAd;
 		
 	}
 	.breakfastAd img{
-		max-width: 90%;
-		max-height: 90%;
+		max-width: 60%;
+		max-height: 60%;
 	}
 
 	.grid-container > div {
@@ -110,6 +113,8 @@
 	.grid-container {
 		background-color: rgb(170, 238, 238);
 		display: grid;
+		grid-row: 1fr 1fr;
+		grid-column: 1fr 1fr;
 		grid-template-areas:'main cleanAd'
 							'pool breakfastAd';
 		grid-gap: 10px;

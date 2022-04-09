@@ -1,5 +1,8 @@
 /*main page*/
-@media (min-width: 1600px) and (max-width:34rem){
+@media (min-width: 1501px){
+	body {
+		background-color: rgba(204, 232, 236, 0.911)
+	}
 	.navbar{
 		height: 70px;
 		width: 100%;
@@ -53,15 +56,12 @@
 		width: 25px;
 		height: auto;
 	}
-	.body{
-		background-color: aliceblue;
-	}
-	.body h1 {
+	body h1 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: xx-large;
 	}
-	.body h2 {
+	body h2 {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: large;
@@ -95,7 +95,6 @@
 	}
 	.pool{
 		grid-area: pool;
-		float: left;
 	}
 	.pool img{
 		max-width: 90%;
@@ -120,7 +119,7 @@
 		grid-column: 1fr 1fr 1fr;
 		grid-row: 1fr 1fr 1fr;
 		grid-template-areas:'main main main'
-							'cleanAd pool'
+							'cleanAd pool pool'
 							'breakfastAd breakfastAd breakfastAd';
 		grid-gap: 10px;
 		padding: 10px;
